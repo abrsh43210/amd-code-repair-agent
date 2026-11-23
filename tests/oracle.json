@@ -1,0 +1,4 @@
+{
+  "LIMIT = 10\n\ndef over_limit(xs):\n    return [x for x in xs if x > LIMIT]\n\nprint(over_limit(undefined_name))\n": "LIMIT = 10\n\n\ndef over_limit(xs):\n    return [x for x in xs if x > LIMIT]\n",
+  "def is_adult(age):\n    return age > 18\n": "def is_adult(age):\n    return age >= 18\n"
+}

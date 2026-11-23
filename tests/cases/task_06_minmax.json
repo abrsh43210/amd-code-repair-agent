@@ -1,0 +1,9 @@
+{
+  "task_id": "task_06_minmax",
+  "description": "clamp() should keep the value inside [low, high]; it currently does the opposite at the top end.",
+  "file": "solution.py",
+  "code": "def clamp(value, low, high):\n    if value < low:\n        return low\n    return max(value, high)\n",
+  "test_file": "test_solution.py",
+  "tests": "from solution import clamp\nassert clamp(5, 0, 10) == 5\nassert clamp(-1, 0, 10) == 0\nassert clamp(42, 0, 10) == 10\nprint(\"ok\")\n",
+  "heuristic_fixable": true
+}

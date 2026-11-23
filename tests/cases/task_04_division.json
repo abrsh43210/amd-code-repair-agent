@@ -1,0 +1,9 @@
+{
+  "task_id": "task_04_division",
+  "description": "average() truncates instead of returning a real mean.",
+  "file": "solution.py",
+  "code": "def average(values):\n    if not values:\n        return 0.0\n    return sum(values) // len(values)\n",
+  "test_file": "test_solution.py",
+  "tests": "from solution import average\nassert abs(average([1, 2]) - 1.5) < 1e-9\nassert abs(average([2, 2]) - 2.0) < 1e-9\nassert average([]) == 0.0\nprint(\"ok\")\n",
+  "heuristic_fixable": true
+}

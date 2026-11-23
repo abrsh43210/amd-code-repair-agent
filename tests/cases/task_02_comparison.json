@@ -1,0 +1,10 @@
+{
+  "task_id": "task_02_comparison",
+  "description": "is_adult should be true from 18 upwards.",
+  "file": "solution.py",
+  "code": "def is_adult(age):\n    return age > 18\n",
+  "test_file": "test_solution.py",
+  "tests": "from solution import is_adult\nassert is_adult(18) is True or is_adult(18) == True\nassert is_adult(17) == False\nassert is_adult(99) == True\nprint(\"ok\")\n",
+  "error": "AssertionError at line 2",
+  "heuristic_fixable": true
+}

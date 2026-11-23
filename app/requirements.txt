@@ -1,0 +1,4 @@
+# torch comes from the mandated ROCm base image; do not pin another one here.
+transformers==5.22.2
+huggingface-hub==2.4.0
+pytest==9.2.0

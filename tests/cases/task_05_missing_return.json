@@ -1,0 +1,9 @@
+{
+  "task_id": "task_05_missing_return",
+  "description": "normalise() computes the value but returns None.",
+  "file": "solution.py",
+  "code": "def normalise(name):\n    cleaned = name.strip().lower()\n    cleaned\n",
+  "test_file": "test_solution.py",
+  "tests": "from solution import normalise\nassert normalise(\"  Abe \") == \"abe\"\nassert normalise(\"X\") == \"x\"\nprint(\"ok\")\n",
+  "heuristic_fixable": true
+}

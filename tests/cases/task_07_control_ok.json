@@ -1,0 +1,9 @@
+{
+  "task_id": "task_07_control_ok",
+  "description": "Reported as broken, but the implementation is correct.",
+  "file": "solution.py",
+  "code": "def double(xs):\n    return [x * 2 for x in xs]\n",
+  "test_file": "test_solution.py",
+  "tests": "from solution import double\nassert double([1, 2]) == [2, 4]\nassert double([]) == []\nprint(\"ok\")\n",
+  "heuristic_fixable": true
+}

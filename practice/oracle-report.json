@@ -1,0 +1,180 @@
+{
+ "mode": "oracle",
+ "rows": [
+  {
+   "id": "requests_7427",
+   "secs": 65.9,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "requests_7315",
+   "secs": 3.4,
+   "label": "llm-0:regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_3376",
+   "secs": 0.1,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_3373",
+   "secs": 14.8,
+   "label": "llm-0:regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_3312",
+   "secs": 1.5,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_3250",
+   "secs": 5.2,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_3187",
+   "secs": 0.1,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_3050",
+   "secs": 0.1,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_3045",
+   "secs": 7.4,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2990",
+   "secs": 5.1,
+   "label": "llm-0:regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2999",
+   "secs": 2.3,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2986",
+   "secs": 0.1,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2886",
+   "secs": 6.5,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2846",
+   "secs": 4.5,
+   "label": "llm-0:regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2723",
+   "secs": 0.1,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2669",
+   "secs": 7.0,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "httpx_2708",
+   "secs": 6.8,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "rich_2330",
+   "secs": 5.8,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "rich_f7aa3fb7",
+   "secs": 4.0,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "fastapi_16739",
+   "secs": 5.7,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "fastapi_16734",
+   "secs": 2.3,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "fastapi_16043",
+   "secs": 4.1,
+   "label": "llm-0:no-regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "fastapi_16062",
+   "secs": 5.1,
+   "label": "llm-0:regression",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "fastapi_15280",
+   "secs": 4.3,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  },
+  {
+   "id": "fastapi_14258",
+   "secs": 4.5,
+   "label": "llm-0:compiles",
+   "pass": true,
+   "why": ""
+  }
+ ]
+}

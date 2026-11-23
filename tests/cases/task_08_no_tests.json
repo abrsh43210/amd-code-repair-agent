@@ -1,0 +1,8 @@
+{
+  "task_id": "task_08_no_tests",
+  "description": "This module raises at import time.",
+  "file": "solution.py",
+  "code": "LIMIT = 10\n\ndef over_limit(xs):\n    return [x for x in xs if x > LIMIT]\n\nprint(over_limit(undefined_name))\n",
+  "heuristic_fixable": false,
+  "note": "No tests and an undefined name: the mutation search cannot repair this one. It is here to prove the entry still writes a valid output file, and to give the model path something real to do."
+}
